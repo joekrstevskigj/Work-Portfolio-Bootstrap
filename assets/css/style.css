@@ -1,7 +1,7 @@
 body {
     min-width: 375px !important;
 }
-
+/*styling for the top part of the page*/
 .heroBackground {
     background-image: url("../images/carveola-incident-screenshot.jpg");
     background-repeat: no-repeat;
@@ -15,7 +15,9 @@ body {
 .bg-secondary {
     background-color: #fdeba9 !important;
 }
+/*end of styling for the top part of the page*/
 
+/*styling for my work section*/
 #my-work img {
     object-fit: cover;
     width: 100%;
@@ -32,7 +34,9 @@ body {
     border-bottom: 1px solid grey;
 }
 
+/*end of styling for my work section*/
 
+/*styling for about me section*/
 #about-me p,
 #about-me h2 {
     color: white;
@@ -58,7 +62,9 @@ body {
     padding: 15%;
     text-align: justify;
 }
+/*end of styling for about me section*/
 
+/*styling for contact me section*/
 #contact-me{
     text-align: center;
     padding: 10px 0px;
@@ -67,3 +73,4 @@ body {
 #contact-me a{
     padding: 0px 10px;
 }
+/*end of styling for contact me section*/
