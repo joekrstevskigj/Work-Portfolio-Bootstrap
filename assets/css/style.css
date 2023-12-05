@@ -1,8 +1,8 @@
 body {
-    min-width: 375px;
+    min-width: 375px !important;
 }
 
-.rockBackground{
+.heroBackground {
     background-image: url("../images/carveola-incident-screenshot.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,22 +12,58 @@ body {
     color: white;
 }
 
-.bg-secondary{
+.bg-secondary {
     background-color: #fdeba9 !important;
 }
 
-#my-work img{
+#my-work img {
     object-fit: cover;
     width: 100%;
     height: 300px;
-    object-position: 0px 0px;
+    object-position: 0 -10vh;
 }
 
-#my-work .card{
+#my-work .card {
     border: none;
-    padding-bottom: 1em;
+    padding: 2em 0;
 }
 
-.row-divider{
+.row-divider {
     border-bottom: 1px solid grey;
+}
+
+
+#about-me p,
+#about-me h2 {
+    color: white;
+}
+
+#about-me .card {
+    background-color: #6c757d;
+    border: none;
+}
+
+#about-me img {
+    object-fit: cover;
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
+    height: auto;
+    object-position: 0 0vh;
+    padding: 3%;
+    
+}
+
+#about-me .card-body{
+    padding: 15%;
+    text-align: justify;
+}
+
+#contact-me{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#contact-me a{
+    padding: 0px 10px;
 }
