@@ -1,3 +1,33 @@
 body {
     min-width: 375px;
 }
+
+.rockBackground{
+    background-image: url("../images/carveola-incident-screenshot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: start;
+    height: 60vh;
+    width: 100%;
+    color: white;
+}
+
+.bg-secondary{
+    background-color: #fdeba9 !important;
+}
+
+#my-work img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    object-position: 0px 0px;
+}
+
+#my-work .card{
+    border: none;
+    padding-bottom: 1em;
+}
+
+.row-divider{
+    border-bottom: 1px solid grey;
+}
